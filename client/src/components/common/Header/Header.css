@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ZinHenaKokuryu-RCF';
+    src: url('../../../assets/fonts/ZinHenaKokuryu-RCF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-block {
+    background-color: transparent;
+}
+
+.title-flexblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-block {
+    text-align: center;
+}
+
+.title {
+    font-family: ZinHenaKokuryu-RCF;
+    font-size: 45px;
+    color: rgb(54, 54, 54);
+}
+
+.logo-1 {
+    margin-top: 15px; 
+    margin-right: -10px;
+    width: 30px;
+    height: 30px;    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.logo-2 {
+    margin-top: 55px;
+    margin-left: -9px;
+    width: 30px;
+    height: 30px;    
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

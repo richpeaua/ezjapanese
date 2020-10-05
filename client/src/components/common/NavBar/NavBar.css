@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.navbar-block {
+    text-align: center;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar-item {
+    display: inline;
+    padding: 8px;
+}
+
+.navbar-item:hover {
+    background: black;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}

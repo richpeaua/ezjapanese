@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // libs
 
 // components
-import Header from '../layout/Header'
+import Header from '../../common/Header/Header'
 
 // stylesheets
 class Home extends Component {
