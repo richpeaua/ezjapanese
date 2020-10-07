@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 // libs
 
@@ -6,12 +6,14 @@ import React from 'react'
 
 // components
 
-function Class_component() {
-  return (
-    <div>
-      
-    </div>
-  )
+class Class_component extends Component {
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
 }
 
 export default Class_component

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 // libs
 
@@ -6,14 +6,12 @@ import React, { Component } from 'react'
 
 // components
 
-export class Function_component extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
+function Function_component() {
+  return (
+    <div>
+      
+    </div>
+  )
 }
 
 export default Function_component
